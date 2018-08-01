@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../Img/Carousel/CarImg1.jpg'
+// import Image from '../Img/Carousel/CarImg1.jpg'
 
 const BlogCard = ({ id, title, body, author, date}) => {
   return (

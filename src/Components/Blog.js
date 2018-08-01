@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import 'tachyons';
 import BlogList from "./BlogList";
-import 'rss-parser/dist/rss-parser.min.js';
-
-
 
 class Blog extends Component {
 

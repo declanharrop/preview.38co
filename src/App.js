@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'tachyons';
-import 'tachyons-z-index';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import Services from './Components/Services';
