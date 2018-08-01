@@ -11,7 +11,9 @@ const BlogList = ({ blogPosts }) => {
               key={i}
               id={blogPosts[i].userId}
               title={blogPosts[i].title}
-              body={blogPosts[i].body}
+              body={blogPosts[i]['content:encoded']}
+              author={blogPosts[i].creator}
+              date={blogPosts[i].pubDate}
             />
           );
         })
