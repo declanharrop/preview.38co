@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
 import 'tachyons';
 import BlogList from "./BlogList";
+import 'rss-parser/dist/rss-parser.min.js';
 
-const Parser = require('rss-parser');
-const parser = new Parser();
-const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
+
 
 class Blog extends Component {
 
@@ -21,8 +20,9 @@ class Blog extends Component {
 	}
 
 	componentDidMount() {
-		parser.parseURL(CORS_PROXY + 'https://www.medium.com/feed/@38co')
-		.then(feed => {this.setState({ blogPosts: feed.items})})
+		fetch('https://www.googleapis.com/blogger/v3/blogs/7005041958789257299/posts?key=AIzaSyB9d5ixXEQGeWLfOPw5YVJddR-64JbEIaM')
+		.then(response => response.json())
+		.then(posts => {this.setState({ blogPosts: posts.items})})
 	}
 
 	render() {

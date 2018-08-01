@@ -9,11 +9,11 @@ const BlogList = ({ blogPosts }) => {
           return (
             <BlogCard 
               key={i}
-              id={blogPosts[i].userId}
+              id={blogPosts[i].id}
               title={blogPosts[i].title}
-              body={blogPosts[i]['content:encoded']}
-              author={blogPosts[i].creator}
-              date={blogPosts[i].pubDate}
+              body={blogPosts[i].content}
+              author={blogPosts[i].author.displayName}
+              date={blogPosts[i].published}
             />
           );
         })
