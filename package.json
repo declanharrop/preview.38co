@@ -1,36 +1,16 @@
 {
-  "name": "y",
+  "name": "preview.38co",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^1.4.1",
-    "@material-ui/icons": "^2.0.0",
-    "ajv": "^6.5.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-native-xml2js": "^1.0.3",
-    "react-responsive-carousel": "^3.1.41",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "tachyons": "^4.11.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {},
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/declanharrop/preview.38co.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/declanharrop/preview.38co/issues"
-  },
-  "homepage": "https://github.com/declanharrop/preview.38co#readme"
+  }
 }
