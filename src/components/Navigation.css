@@ -2,3 +2,16 @@ p {
   margin: 0;
   padding: 0;
 }
+.tecGrey {
+  background-color: #3F424C
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuItem {
+  color: #3F424C;
+}
