@@ -7,12 +7,12 @@ import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 
+import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
 import ServicesIcon from '@material-ui/icons/Code';
 import AboutIcon from '@material-ui/icons/AccountCircle';
 import BlogIcon from '@material-ui/icons/Book';
 import ContactIcon from '@material-ui/icons/LocalPhone';
-
 
 import './Navigation.css'
 
@@ -26,11 +26,10 @@ const styles = {
   },
 
   menuButton: {
-    border: '20px 20px',
-    color:'black',
-    width: '40px',
-    height: '40px',
-    margin: '20px',
+    color:'white',
+    width: '20px',
+    height: '50px',
+    margin: '10px',
   },
 
   Logo: {
@@ -59,7 +58,7 @@ class Navigation extends React.Component {
             <img className='centered' style={{height: '100px'}} src={require('../img/TECLogo.png')} alt='38co Logo' />
           </div>
           <NavLink to='/'>
-            <div className='pv1 pt2'>
+            <div className='ml2 pv1 pt2'>
               <div className="mw7 center ph1-ns bg-white">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
@@ -78,7 +77,7 @@ class Navigation extends React.Component {
           </NavLink>
           <Divider />
           <NavLink to='/services'>
-            <div className='pv1'>
+            <div className='ml2 pv1'>
               <div className="mw7 center ph1-ns bg-white">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
@@ -97,7 +96,7 @@ class Navigation extends React.Component {
           </NavLink>
           <Divider />
           <NavLink to='/about'>
-            <div className='pv1'>
+            <div className='ml2 pv1'>
               <div className="mw7 center ph1-ns bg-white">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
@@ -116,7 +115,7 @@ class Navigation extends React.Component {
           </NavLink>
           <Divider />
           <NavLink to='/blog'>
-            <div className='pv1'>
+            <div className='ml2 pv1'>
               <div className="mw7 center ph1-ns bg-white">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
@@ -135,7 +134,7 @@ class Navigation extends React.Component {
           </NavLink>
           <Divider />
           <NavLink to='/contact'>
-            <div className='pv1'>
+            <div className='ml2 pv1'>
               <div className="mw7 center ph1-ns bg-white">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
@@ -158,17 +157,28 @@ class Navigation extends React.Component {
 
     return (
       <div>
-        <Button className={classes.menuButton} onMouseEnter={classes.linkHover} onClick={this.toggleDrawer('left', true)}>M</Button>
-        <Drawer open={this.state.left} onClose={this.toggleDrawer('left', false)}>
-          <div
-            tabIndex={0}
-            role="button"
-            onClick={this.toggleDrawer('left', false)}
-            onKeyDown={this.toggleDrawer('left', false)}
-          >
-            {sideList}
+        <div className='menuBarLower w-100 mb4'>
+        </div>
+        <div className='menuBar w-100 cf'>
+          <div className='fl'>
+            <Button className={classes.menuButton} onMouseEnter={classes.linkHover} onClick={this.toggleDrawer('left', true)}><MenuIcon /></Button>
+            <Drawer open={this.state.left} onClose={this.toggleDrawer('left', false)}>
+              <div
+                tabIndex={0}
+                role="button"
+                onClick={this.toggleDrawer('left', false)}
+                onKeyDown={this.toggleDrawer('left', false)}
+              >
+                {sideList}
+              </div>
+            </Drawer>
           </div>
-        </Drawer>
+          <div className='mr3'>
+            <NavLink to='/'>
+              <img className='fr' style={{height: '50px', padding: '10px'}} src={require('../img/TECLogo.png')} alt='38co Logo'/>
+            </NavLink>
+          </div>
+        </div>
       </div>
     );
   }

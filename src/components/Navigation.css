@@ -15,3 +15,16 @@ p {
 .menuItem {
   color: #3F424C;
 }
+
+.menuBar {
+  background-color: #3F424C;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  height: 70px;
+}
+
+.menuBarLower {
+  height: 70px;
+}
