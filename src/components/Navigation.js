@@ -13,6 +13,7 @@ import ServicesIcon from '@material-ui/icons/Code';
 import AboutIcon from '@material-ui/icons/AccountCircle';
 import BlogIcon from '@material-ui/icons/Book';
 import ContactIcon from '@material-ui/icons/LocalPhone';
+import OurWorkIcon from '@material-ui/icons/PhotoLibrary';
 
 import './Navigation.css'
 
@@ -96,6 +97,25 @@ class Navigation extends React.Component {
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
                       <p className='dtc v-mid ph2 menuItem'>Services</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </NavLink>
+          <Divider className={classes.dividerShrinkSM} />
+          <NavLink to='/OurWork'>
+            <div className='navButton br2 mh2 mv1 pl2 pv1'>
+              <div className="mw7 center ph1-ns">
+                <div className="cf ph1-ns">
+                  <div className="fl w-30 pa2 pl3">
+                    <div className="pv1 h2">
+                      <OurWorkIcon className={classes.Logo}/>
+                    </div>
+                  </div>
+                  <div className="fl w-70 pa2">
+                    <div className="pv1 h2 dt">
+                      <p className='dtc v-mid ph2 menuItem'>OurWork</p>
                     </div>
                   </div>
                 </div>

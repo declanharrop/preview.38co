@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Blog = () => {
+const OurWork = () => {
   return (
     <div>
       <div style= {{height: '80px'}}></div>
-      <h1>Blog</h1>
+      <h1>OurWork</h1>
       <p>Content...</p>
     </div>
   );
 };
 
-export default Blog;
+export default OurWork;
