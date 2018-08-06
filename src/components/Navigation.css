@@ -25,6 +25,27 @@ p {
   height: 70px;
 }
 
-.menuBarLower {
-  height: 70px;
+.socialMedia {
+  background-color: white;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left:0;
+}
+
+.socialMediaIcon {
+  margin: 30px;
+}
+
+.callIcon:hover {
+  content: url('../../src/img/icons/Call_Hover.png');
+}
+
+.instaIcon:hover {
+  content: url('../../src/img/icons/Insta_Hover.png');
+}
+
+.navButton:hover {
+  background-color: lightgray;
 }

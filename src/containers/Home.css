@@ -1,0 +1,10 @@
+.buttonRow {
+  width: 340px;
+  background-color: beige;
+}
+
+.button {
+  width: 160px;
+  background-color: yellow;
+  height: 50px;
+}

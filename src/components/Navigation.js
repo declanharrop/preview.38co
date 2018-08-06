@@ -34,6 +34,14 @@ const styles = {
 
   Logo: {
     color: '#3F424C',
+  },
+
+  dividerShrink: {
+    margin: '0px 30px'
+  },
+
+  dividerShrinkSM: {
+    margin: '0px 10px'
   }
 };
 
@@ -58,12 +66,12 @@ class Navigation extends React.Component {
             <img className='centered' style={{height: '100px'}} src={require('../img/TECLogo.png')} alt='38co Logo' />
           </div>
           <NavLink to='/'>
-            <div className='ml2 pv1 pt2'>
-              <div className="mw7 center ph1-ns bg-white">
+            <div className='navButton br2 mh2 mv1 pl2 pv1 pt2'>
+              <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
                     <div className="pv1 h2">
-                    <HomeIcon className={classes.Logo}/>
+                      <HomeIcon className={classes.Logo}/>
                     </div>
                   </div>
                   <div className="fl w-70 pa2">
@@ -75,14 +83,14 @@ class Navigation extends React.Component {
               </div>
             </div>
           </NavLink>
-          <Divider />
+          <Divider className={classes.dividerShrinkSM} />
           <NavLink to='/services'>
-            <div className='ml2 pv1'>
-              <div className="mw7 center ph1-ns bg-white">
+            <div className='navButton br2 mh2 mv1 pl2 pv1'>
+              <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
                     <div className="pv1 h2">
-                    <ServicesIcon className={classes.Logo}/>
+                      <ServicesIcon className={classes.Logo}/>
                     </div>
                   </div>
                   <div className="fl w-70 pa2">
@@ -94,10 +102,10 @@ class Navigation extends React.Component {
               </div>
             </div>
           </NavLink>
-          <Divider />
+          <Divider className={classes.dividerShrinkSM} />
           <NavLink to='/about'>
-            <div className='ml2 pv1'>
-              <div className="mw7 center ph1-ns bg-white">
+            <div className='navButton br2 mh2 mv1 pl2 pv1'>
+              <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
                     <div className="pv1 h2">
@@ -113,14 +121,14 @@ class Navigation extends React.Component {
               </div>
             </div>
           </NavLink>
-          <Divider />
+          <Divider className={classes.dividerShrinkSM} />
           <NavLink to='/blog'>
-            <div className='ml2 pv1'>
-              <div className="mw7 center ph1-ns bg-white">
+            <div className='navButton br2 mh2 mv1 pl2 pv1'>
+              <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
                     <div className="pv1 h2">
-                    <BlogIcon className={classes.Logo}/>
+                      <BlogIcon className={classes.Logo}/>
                     </div>
                   </div>
                   <div className="fl w-70 pa2">
@@ -132,14 +140,14 @@ class Navigation extends React.Component {
               </div>
             </div>
           </NavLink>
-          <Divider />
+          <Divider className={classes.dividerShrinkSM} />
           <NavLink to='/contact'>
-            <div className='ml2 pv1'>
-              <div className="mw7 center ph1-ns bg-white">
+            <div className='navButton br2 mh2 mv1 pl2 pv1'>
+              <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
                   <div className="fl w-30 pa2 pl3">
                     <div className="pv1 h2">
-                    <ContactIcon className={classes.Logo}/>
+                      <ContactIcon className={classes.Logo}/>
                     </div>
                   </div>
                   <div className="fl w-70 pa2">
@@ -151,14 +159,23 @@ class Navigation extends React.Component {
               </div>
             </div>
           </NavLink>
+
+          <div className='socialMedia'>
+            <Divider className={classes.dividerShrink} />
+            <div className='socialMediaIcon'>
+              <img className='fl pl4 callIcon' style={{height: '30px'}} src={require('../img/icons/Call.png')} alt='38co Logo'/>
+            </div>
+            <div className='socialMediaIcon'>
+              <img className='fr pr4 instaIcon' style={{height: '30px'}} src={require('../img/icons/Insta.png')} alt='38co Logo'/>
+            </div>
+          </div>
+
         </List>
       </div>
     );
 
     return (
       <div>
-        <div className='menuBarLower w-100 mb4'>
-        </div>
         <div className='menuBar w-100 cf'>
           <div className='fl'>
             <Button className={classes.menuButton} onMouseEnter={classes.linkHover} onClick={this.toggleDrawer('left', true)}><MenuIcon /></Button>
