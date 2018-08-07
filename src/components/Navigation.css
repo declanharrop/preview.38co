@@ -23,6 +23,7 @@ p {
   position: fixed;
   top: 0px;
   height: 70px;
+  z-index: 1;
 }
 
 .socialMedia {
@@ -30,8 +31,11 @@ p {
   height: 90px;
   width: 100%;
   position: fixed;
+  overflow: hidden;
   bottom: 0;
-  left:0;
+  left: 0;
+  right: 0;
+  top: inherit;
 }
 
 .socialMediaIcon {

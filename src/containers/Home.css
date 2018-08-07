@@ -1,10 +1,14 @@
 .buttonRow {
   width: 340px;
-  background-color: beige;
+  ;
 }
 
 .button {
   width: 160px;
-  background-color: yellow;
+  background-color: white;
   height: 50px;
+  margin-bottom: 20px;
+  color: #3F424C;
 }
+
+
