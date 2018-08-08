@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.siteFont {
+  font-family: 'Montserrat', sans-serif;
+}
+
 customLink {
   border: 20px;
 }
 
-p {
-  color: #3F424C
+.lightGreyBG {
+  background-color: rgba(63, 66, 76, 0.8);
 }
+
+.blueFont {
+  color: rgba(34,255,245,1)
+}
+
+.greyFont {
+  color: #3F424C;
+}
+
+p {
+  color: #3F424C;
+  font-size: 1.15rem;
+}
+
+
 
 h2 {
   color: #3F424C

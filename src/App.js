@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <BrowserRouter>
-          <div>
+          <div className='siteFont'>
             <Navigation />
             <Switch>
               <Route path="/" component={Home} exact/>

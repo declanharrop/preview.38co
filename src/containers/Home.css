@@ -1,14 +1,16 @@
-.buttonRow {
-  width: 340px;
-  ;
-}
-
 .button {
-  width: 160px;
+  width: 166px;
   background-color: white;
-  height: 50px;
-  margin-bottom: 20px;
+  height: 44px;
   color: #3F424C;
+  font-size: 0.90rem;
 }
 
+.buttonAlt {
+  width: 166px;
+  background: rgba(34,255,245,1);
+  color: #3F424C;
+  height: 44px;
+  font-size: 0.90rem;
+}
 

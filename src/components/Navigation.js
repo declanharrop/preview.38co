@@ -115,7 +115,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>OurWork</p>
+                      <p className='dtc v-mid ph2 menuItem'>Our Work</p>
                     </div>
                   </div>
                 </div>

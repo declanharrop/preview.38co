@@ -1,0 +1,11 @@
+.footerLink {
+  color: white;
+}
+
+.footerLink:hover {
+  color: rgba(34,255,245,1)
+}
+
+.footerBlock:before {
+  vertical-align: top;
+}
