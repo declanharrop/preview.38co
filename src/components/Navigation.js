@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink} from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -183,10 +183,14 @@ class Navigation extends React.Component {
           <div className='socialMedia'>
             <Divider className={classes.dividerShrink} />
             <div className='socialMediaIcon'>
-              <img className='fl pl4 callIcon' style={{height: '30px'}} src={require('../img/icons/Call.png')} alt='38co Logo'/>
+              <a href='tel:+447446976265'>
+                <img className='fl pl4 callIcon' style={{height: '30px'}} src={require('../img/icons/Call.png')} alt='38co Logo'/>
+              </a>
             </div>
             <div className='socialMediaIcon'>
-              <img className='fr pr4 instaIcon' style={{height: '30px'}} src={require('../img/icons/Insta.png')} alt='38co Logo'/>
+              <a href='https://www.instagram.com/38co.io/' target='_blank'>
+                <img className='fr pr4 instaIcon' style={{height: '30px'}} src={require('../img/icons/Insta.png')} alt='38co Logo'/>
+              </a>
             </div>
           </div>
 
