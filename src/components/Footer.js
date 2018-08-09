@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink} from 'react-router-dom';
+// import { NavLink} from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 import './Footer.css'
 
@@ -11,22 +12,22 @@ const Footer = () => {
         <div className='fl pa2 mh4 footerBlock'>
           <h2 className='fw5 blueFont'>Navigation</h2>
           <div className='mv2'>
-            <NavLink to='/' className='no-underline'><p className='footerLink fw2 f5'>Home</p></NavLink>
+            <NavLink to='/#T' className='no-underline'><p className='footerLink fw2 f5'>Home</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/Services' className='no-underline'><p className='footerLink fw2 f5'>Services</p></NavLink>
+            <NavLink to='/Services#T' className='no-underline'><p className='footerLink fw2 f5'>Services</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/OurWork' className='no-underline'><p className='footerLink fw2 f5'>Our Work</p></NavLink>
+            <NavLink to='/OurWork#T' className='no-underline'><p className='footerLink fw2 f5'>Our Work</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/About' className='no-underline'><p className='footerLink fw2 f5'>About</p></NavLink>
+            <NavLink to='/About#T' className='no-underline'><p className='footerLink fw2 f5'>About</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/Blog' className='no-underline'><p className='footerLink fw2 f5'>Blog</p></NavLink>
+            <NavLink to='/Blog#T' className='no-underline'><p className='footerLink fw2 f5'>Blog</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/Contact' className='no-underline'><p className='footerLink fw2 f5'>Contact</p></NavLink>
+            <NavLink to='/Contact#T' className='no-underline'><p className='footerLink fw2 f5'>Contact</p></NavLink>
           </div>
         </div>
 

@@ -66,7 +66,7 @@ class Navigation extends React.Component {
           <div className='pv3 w-100'>
             <img className='centered' style={{height: '100px'}} src={require('../img/TECLogo.png')} alt='38co Logo' />
           </div>
-          <NavLink to='/'>
+          <NavLink to='/#T'>
             <div className='navButton br2 mh2 mv1 pl2 pv1 pt2'>
               <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
@@ -85,7 +85,7 @@ class Navigation extends React.Component {
             </div>
           </NavLink>
           <Divider className={classes.dividerShrinkSM} />
-          <NavLink to='/services'>
+          <NavLink to='/services#T'>
             <div className='navButton br2 mh2 mv1 pl2 pv1'>
               <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
@@ -104,7 +104,7 @@ class Navigation extends React.Component {
             </div>
           </NavLink>
           <Divider className={classes.dividerShrinkSM} />
-          <NavLink to='/OurWork'>
+          <NavLink to='/OurWork#T'>
             <div className='navButton br2 mh2 mv1 pl2 pv1'>
               <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
@@ -123,7 +123,7 @@ class Navigation extends React.Component {
             </div>
           </NavLink>
           <Divider className={classes.dividerShrinkSM} />
-          <NavLink to='/about'>
+          <NavLink to='/about#T'>
             <div className='navButton br2 mh2 mv1 pl2 pv1'>
               <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
@@ -142,7 +142,7 @@ class Navigation extends React.Component {
             </div>
           </NavLink>
           <Divider className={classes.dividerShrinkSM} />
-          <NavLink to='/blog'>
+          <NavLink to='/blog#T'>
             <div className='navButton br2 mh2 mv1 pl2 pv1'>
               <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
@@ -161,7 +161,7 @@ class Navigation extends React.Component {
             </div>
           </NavLink>
           <Divider className={classes.dividerShrinkSM} />
-          <NavLink to='/contact'>
+          <NavLink to='/contact#T'>
             <div className='navButton br2 mh2 mv1 pl2 pv1'>
               <div className="mw7 center ph1-ns">
                 <div className="cf ph1-ns">
