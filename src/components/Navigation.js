@@ -188,8 +188,8 @@ class Navigation extends React.Component {
               </a>
             </div>
             <div className='socialMediaIcon'>
-              <a href='https://www.instagram.com/38co.io/' target='_blank'>
-                <img className='fr pr4 instaIcon' style={{height: '30px'}} src={require('../img/icons/Insta.png')} alt='38co Logo'/>
+              <a href='https://www.instagram.com/38co.io/' target='_blank' rel="noreferrer noopener">
+                <img className='fr pr4 instagramIcon' style={{height: '30px'}} src={require('../img/SocialIcons/instagram.svg')} alt='Instagram'/>
               </a>
             </div>
           </div>

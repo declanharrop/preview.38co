@@ -7,7 +7,8 @@ const Services = () => {
         <div 
           style={{
             background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
-            backgroundSize: 'cover'}} 
+            backgroundSize: 'cover'
+          }} 
           className="dtc v-mid cover ph3 ph4-m ph5-l"
         >
           <h1 className="f2 fw8 f-subheadline-l greyFont">Our Services</h1>

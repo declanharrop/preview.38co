@@ -6,6 +6,54 @@
   color: rgba(34,255,245,1)
 }
 
+.tecLightGrey {
+  background-color: #A9ACBB
+}
+
 .footerBlock:before {
   vertical-align: top;
+}
+
+.instagramIcon {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/instagram.svg');
+}
+.instagramIcon:hover {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/instagramHover.svg');
+}
+
+.callIcon {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/call.svg');
+}
+.callIcon:hover {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/callHover.svg');
+}
+
+.twitterIcon {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/twitter.svg');
+}
+.twitterIcon:hover {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/twitterHover.svg');
+}
+
+.facebookIcon {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/facebook.svg');
+}
+.facebookIcon:hover {
+  height: 30px;
+  width: auto;
+  content: url('../../src/img/SocialIcons/facebookHover.svg');
 }
