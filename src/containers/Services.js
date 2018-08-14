@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
+import './Services.css'
+
 import WebDevIcon from '@material-ui/icons/Code';
 import BrandingIcon from '@material-ui/icons/Business';
 import UXUIIcon from '@material-ui/icons/Smartphone';
@@ -9,6 +11,7 @@ import MaintenanceIcon from '@material-ui/icons/SettingsRounded';
 import SEOIcon from '@material-ui/icons/Search';
 
 const Services = () => {
+
   return (
     <div id='T'>
       <header className="vh-100 bg-light-pink dt w-100">
@@ -116,6 +119,14 @@ const Services = () => {
 
           </div>
         </div>
+        
+        {/*
+
+
+          Web Development Section
+
+
+        */}
 
         <div 
           id='WebDev' 
@@ -198,6 +209,195 @@ const Services = () => {
           
           </div>
         </div>
+
+        <div className='largeImg1 vh-75'></div>
+
+        {/*
+
+
+          Branding Section
+
+
+        */}
+
+        <div 
+          id='WebDev' 
+          className='pv2 WebDevBG'
+        >
+          <div className='mw9 center tc'>
+            <div className='pt5'>
+              <BrandingIcon 
+                style={{
+                  fontSize: 140,
+                  color: 'white',
+                }}
+              />
+            </div>
+            <h1 className='sectionH1'>Branding</h1>
+            
+            <div className='dt-l dt--fixed-l mt5 mb5'>
+
+              <div className='dtc-l tc'>
+                <div className='ma2 pa4 shadow-2'>
+                  <WebDesIcon 
+                    style={{
+                      fontSize: 50,
+                      color: 'white',
+                    }}
+                  />
+                  <h2 className='sectionSub'>Custom Web Design</h2>
+                  <p className='white'>
+                    At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. 
+                    We believe in giving our clients clear and honest advice on what is best for their 
+                    business. We offer a range of options when it comes to web design and development 
+                    that can fit a particular clients needs and budget.
+                  </p>
+                </div>
+              </div>
+              
+              <div className='dtc-l tc'>
+                <div className='ma2 pa4 shadow-2'>
+                  <MaintenanceIcon 
+                    style={{
+                      fontSize: 50,
+                      color: 'white',
+                    }}
+                  />
+                  <h2 className='sectionSub'>Maintenance</h2>
+                  <p className='white'>
+                    At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. 
+                    We believe in giving our clients clear and honest advice on what is best for their 
+                    business. We offer a range of options when it comes to web design and development 
+                    that can fit a particular clients needs and budget.
+                  </p>
+                </div>
+              </div>
+
+              <div className='dtc-l tc'>
+                <div className='ma2 pa4 shadow-2'>
+                  <SEOIcon 
+                    style={{
+                      fontSize: 50,
+                      color: 'white',
+                    }}
+                  />
+                  <h2 className='sectionSub'>SEO</h2>
+                  <p className='white'>
+                    At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. 
+                    We believe in giving our clients clear and honest advice on what is best for their 
+                    business. We offer a range of options when it comes to web design and development 
+                    that can fit a particular clients needs and budget.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <NavLink to='/Contact#T' className='no-underline'>
+              <div className='dt center buttonAlt mt3 mb5 br2 shadow-4 grow'>
+                <h3 className='dtc v-mid fw3'>Get in touch!</h3>
+              </div>
+            </NavLink>            
+          
+          </div>
+        </div>
+
+        <div className='largeImg1 vh-75'></div>
+
+        {/*
+
+
+          UX/UI Section
+
+
+        */}
+
+        <div 
+          id='WebDev' 
+          className='pv2 WebDevBG'
+        >
+          <div className='mw9 center tc'>
+            <div className='pt5'>
+              <UXUIIcon 
+                style={{
+                  fontSize: 140,
+                  color: 'white',
+                }}
+              />
+            </div>
+            <h1 className='sectionH1'>UX/UI Design</h1>
+            
+            <div className='dt-l dt--fixed-l mt5 mb5'>
+
+              <div className='dtc-l tc'>
+                <div className='ma2 pa4 shadow-2'>
+                  <WebDesIcon 
+                    style={{
+                      fontSize: 50,
+                      color: 'white',
+                    }}
+                  />
+                  <h2 className='sectionSub'>Custom Web Design</h2>
+                  <p className='white'>
+                    At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. 
+                    We believe in giving our clients clear and honest advice on what is best for their 
+                    business. We offer a range of options when it comes to web design and development 
+                    that can fit a particular clients needs and budget.
+                  </p>
+                </div>
+              </div>
+              
+              <div className='dtc-l tc'>
+                <div className='ma2 pa4 shadow-2'>
+                  <MaintenanceIcon 
+                    style={{
+                      fontSize: 50,
+                      color: 'white',
+                    }}
+                  />
+                  <h2 className='sectionSub'>Maintenance</h2>
+                  <p className='white'>
+                    At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. 
+                    We believe in giving our clients clear and honest advice on what is best for their 
+                    business. We offer a range of options when it comes to web design and development 
+                    that can fit a particular clients needs and budget.
+                  </p>
+                </div>
+              </div>
+
+              <div className='dtc-l tc'>
+                <div className='ma2 pa4 shadow-2'>
+                  <SEOIcon 
+                    style={{
+                      fontSize: 50,
+                      color: 'white',
+                    }}
+                  />
+                  <h2 className='sectionSub'>SEO</h2>
+                  <p className='white'>
+                    At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. 
+                    We believe in giving our clients clear and honest advice on what is best for their 
+                    business. We offer a range of options when it comes to web design and development 
+                    that can fit a particular clients needs and budget.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <NavLink to='/Contact#T' className='no-underline'>
+              <div className='dt center buttonAlt mt3 mb5 br2 shadow-4 grow'>
+                <h3 className='dtc v-mid fw3'>Get in touch!</h3>
+              </div>
+            </NavLink>            
+          
+          </div>
+        </div>
+
+        <div className='largeImg1 vh-75'></div>
+
+        <div className='pa5'></div>
+
       </div>
 
 
