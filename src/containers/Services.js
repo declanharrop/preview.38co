@@ -84,11 +84,14 @@ const Services = () => {
                   clients needs and budget. 
                   </p>
                 </div>
-                <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
-                  <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
-                </div>
+                <NavLink to='/Services#Branding' className='no-underline'>
+                  <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
+                    <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                  </div>
+                </NavLink>
               </div>
             </div>
+
 
             <div className="dtc-l tc">
               <div className='bg-white br2 ma2 pb4 pt4 ph3 shadow-4'>
@@ -111,9 +114,11 @@ const Services = () => {
                   clients needs and budget. 
                   </p>
                 </div>
-                <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
-                  <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
-                </div>
+                <NavLink to='/Services#UXUI' className='no-underline'>
+                  <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
+                    <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                  </div>
+                </NavLink>
               </div>
             </div>
 
@@ -221,7 +226,7 @@ const Services = () => {
         */}
 
         <div 
-          id='WebDev' 
+          id='Branding' 
           className='pv2 WebDevBG'
         >
           <div className='mw9 center tc'>
@@ -313,7 +318,7 @@ const Services = () => {
         */}
 
         <div 
-          id='WebDev' 
+          id='UXUI' 
           className='pv2 WebDevBG'
         >
           <div className='mw9 center tc'>
