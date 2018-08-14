@@ -14,3 +14,14 @@
   font-size: 0.90rem;
 }
 
+.thi:hover {
+  content: url('../../src/img/ClientIcons/thiHover.png');
+}
+
+.lnb:hover {
+  content: url('../../src/img/ClientIcons/lnbHover.png');
+}
+
+.aath:hover {
+  content: url('../../src/img/ClientIcons/aathHover.png');
+}

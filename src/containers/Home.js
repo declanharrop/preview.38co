@@ -97,9 +97,25 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
+      <div className='w-100 lightGreyBG pv5 mb5'>
+        <div className='mw8 tc center'>
+          <div className='dib mh4'>
+            <a href='https://www.totalhomeimp.co.uk/' target='_blank' rel="noreferrer noopener">
+              <img className='thi' style={{height: '140px'}} src={require('../img/ClientIcons/thi.png')} alt='Instagram'/> 
+            </a>
+          </div>
+          <div className='dib mh4'>
+            <a href='https://www.lunulanailsandbeauty.com/' target='_blank' rel="noreferrer noopener">
+              <img className='lnb' style={{height: '140px'}} src={require('../img/ClientIcons/lnb.png')} alt='Instagram'/> 
+            </a>
+          </div>
+          <div className='dib mh4'>
+            <a href='https://www.aliceandthehair.co.uk/' target='_blank' rel="noreferrer noopener">
+              <img className='aath' style={{height: '140px'}} src={require('../img/ClientIcons/aath.png')} alt='Instagram'/> 
+            </a>
+          </div>
+        </div>
+      </div>
 
     </div>
   );
