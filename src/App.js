@@ -29,7 +29,7 @@ class App extends Component {
               <Route path="/OurWork" component={OurWork} />
               <Route path="/About" component={About}/>
               <Route exact path="/Blog" component={Blog}/>
-              <Route path="/blog/:blogPost" component={BlogPost} />
+              <Route path="/Blog/:blogPost" component={BlogPost} />
               <Route path="/Contact" component={Contact}/>
               <Route component={Err} />
             </Switch>

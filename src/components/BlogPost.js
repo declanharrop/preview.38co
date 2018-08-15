@@ -1,12 +1,17 @@
-import React from 'react'
+import React from 'react';
+import * as Markdown from 'react-markdown';
 
 
-const BlogPost = (props) => (
-  <div> 
-    <h1>Blog Post</h1>  
-    <pre>{JSON.stringify(props, null, 2)}</pre>
-  </div>
-)
+const BlogPost = ({ location: { state: { props } }}) => {
+  return(  
+    <div>
+      <div className='ma6'></div>
+      <h1>{props.title}</h1>
+      <Markdown source={props.content} />  
+      
+    </div>
+  )
+}
 
 export default BlogPost
 

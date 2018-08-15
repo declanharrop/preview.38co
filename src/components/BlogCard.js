@@ -14,11 +14,11 @@ const BlogCard = (props) => (
           <img src={props.icon} className="db" alt=" f a dimly lit room with a computer interface terminal." />
         </div>
       </div>
-      <Markdown><p className="f6 lh-copy gray mv0">By <span className="ttu">Robin Darnell</span></p></Markdown>
+      <p className="f6 lh-copy gray mv0">By <span className="ttu">Robin Darnell</span></p>
       <time className="f6 db gray">{props.date}</time>
       <Link className="" 
         to={{
-          pathname: `/blog/${props.path}`,
+          pathname: `/Blog${props.path}`,
           state: { props }
         }}
       >
