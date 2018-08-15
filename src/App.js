@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, } from 'react-router-dom';
 import 'tachyons'
 
 import Home from './containers/Home';
@@ -10,6 +10,7 @@ import About from './containers/About';
 import Blog from './containers/Blog';
 import Contact from './containers/Contact';
 import Err from './containers/Err';
+import BlogPost from './components/BlogPost';
 
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
@@ -27,7 +28,8 @@ class App extends Component {
               <Route path="/Services" component={Services}/>
               <Route path="/OurWork" component={OurWork} />
               <Route path="/About" component={About}/>
-              <Route path="/Blog" component={Blog}/>
+              <Route exact path="/Blog" component={Blog}/>
+              <Route path="/blog/:blogPost" component={BlogPost} />
               <Route path="/Contact" component={Contact}/>
               <Route component={Err} />
             </Switch>
