@@ -18,7 +18,7 @@ const BlogCard = (props) => (
       <time className="f6 db gray">{props.date}</time>
       <Link className="" 
         to={{
-          pathname: `/blog${props.path}`,
+          pathname: `/blog/${props.path}`,
           state: { props }
         }}
       >
