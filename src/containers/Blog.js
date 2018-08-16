@@ -31,8 +31,18 @@ export default class Blog extends Component {
 
     return (
       <div id='T'>
-        
-        <div style= {{height: '80px'}}></div>
+         <header className="vh-50 dt w-100 pb5">
+          <div 
+            style={{
+              background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
+              backgroundSize: 'cover'
+            }} 
+            className="dtc v-mid cover ph3 ph4-m ph5-l"
+          >
+            <h1 className="f2 fw8 f-subheadline-l greyFont">The Blog</h1>
+            <h2 className="f5 fw5">Read our latest stories</h2>
+          </div>
+        </header>
         <div className='mw8 pa3 center'>
           { this.state.posts.map(({fields}, i) =>
             <BlogCard key={i} {...fields} />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
+import BlogBanner from '../components/BlogBanner';
 
 import './Home.css'
 
@@ -116,6 +117,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <BlogBanner />
 
     </div>
   );

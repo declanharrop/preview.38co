@@ -4,18 +4,18 @@ import * as Markdown from 'react-markdown';
 
 const BlogPost = ({ location: { state: { props } }}) => {
   return(  
-    <div>
-      <article className="pb5 ma5">
-        <header className="tc-l ph3 ph4-ns pt4 pt5-ns">
-          <h1 className="f3 f2-m f-subheadline-l measure lh-title fw1 mt0">{props.title}</h1>
-          <time className="f5 f4-l db fw1 mb4">{props.date}</time>
-          <img className="w-100 dib measure f3" src={props.icon} alt={props.imageAlt}/>
+    <div id='T'>
+      <article className="pb5 mt4 mb3 mh3">
+        <header className="tc ph3 ph4-ns pt5">
+          <h1 className="f3 f2-m f1-l fw3 mt0">{props.title}</h1>
         </header>
-        <div className="ph3 ph4-m ph5-l">
-          <div className="measure db center f5 f4-ns lh-copy pt4">
+        <div className="ph2">
+          <div className="measure db center f5 f4-ns lh-copy">
+            <img className="w-100 mb4" src={props.icon} alt={props.imageAlt}/>
             <Markdown className='blogText' source={props.content} />
             <div className='pt4'>
               <p>By: {props.author}</p>
+              <time className="f5 f4-l db fw1 mt2">{props.date}</time>
             </div>
           </div>
 
