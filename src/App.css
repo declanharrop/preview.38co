@@ -50,3 +50,11 @@ h3 {
 .LargeImages {
   height: 400px;
 }
+
+.leading {
+  line-height: 1.5rem;
+}
+
+.blogText {
+  line-height: 1.9rem;
+}

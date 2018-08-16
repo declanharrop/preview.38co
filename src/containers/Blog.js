@@ -31,10 +31,13 @@ export default class Blog extends Component {
 
     return (
       <div id='T'>
+        
         <div style= {{height: '80px'}}></div>
-        { this.state.posts.map(({fields}, i) =>
-          <BlogCard key={i} {...fields} />
-        )}
+        <div className='mw8 pa3 center'>
+          { this.state.posts.map(({fields}, i) =>
+            <BlogCard key={i} {...fields} />
+          )}
+        </div>
       </div>
     )
   }
