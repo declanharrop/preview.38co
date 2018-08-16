@@ -9,7 +9,7 @@ const BlogBannerCard = (props) => (
       <h3 className='fw5 f4 pa0'>{props.title}</h3>
       <NavLink className="mv2" 
         to={{
-          pathname: `/Blog${props.path}#T`,
+          pathname: `/Blog${props.path}`,
           state: { props }
         }}
       >

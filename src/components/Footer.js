@@ -13,22 +13,22 @@ const Footer = () => {
         <div className='fl mh4 footerBlock'>
           <h2 className='fw5 blueFont'>Navigation</h2>
           <div className='mv2'>
-            <NavLink to='/#T' className='no-underline'><p className='footerLink fw4 f5'>Home</p></NavLink>
+            <NavLink to='/' className='no-underline'><p className='footerLink fw4 f5'>Home</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/Services#T' className='no-underline'><p className='footerLink fw4 f5'>Services</p></NavLink>
+            <NavLink to='/Services' className='no-underline'><p className='footerLink fw4 f5'>Services</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/OurWork#T' className='no-underline'><p className='footerLink fw4 f5'>Our Work</p></NavLink>
+            <NavLink to='/OurWork' className='no-underline'><p className='footerLink fw4 f5'>Our Work</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/About#T' className='no-underline'><p className='footerLink fw4 f5'>About</p></NavLink>
+            <NavLink to='/About' className='no-underline'><p className='footerLink fw4 f5'>About</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/Blog#T' className='no-underline'><p className='footerLink fw4 f5'>Blog</p></NavLink>
+            <NavLink to='/Blog' className='no-underline'><p className='footerLink fw4 f5'>Blog</p></NavLink>
           </div>
           <div className='mv2'>
-            <NavLink to='/Contact#T' className='no-underline'><p className='footerLink fw4 f5'>Contact</p></NavLink>
+            <NavLink to='/Contact' className='no-underline'><p className='footerLink fw4 f5'>Contact</p></NavLink>
           </div>
         </div>
 

@@ -16,7 +16,7 @@ const BlogCard = (props) => (
             <p className="mv2">By: {props.author}</p>
             <NavLink className="mv2" 
               to={{
-                pathname: `/Blog${props.path}#T`,
+                pathname: `/Blog${props.path}`,
                 state: { props }
               }}
             >
