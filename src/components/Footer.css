@@ -1,3 +1,11 @@
+body:after{
+  display:none;
+  content:  url('../../src/img/icons/instagramHover.svg') 
+            url('../../src/img/icons/facebookHover.svg') 
+            url('../../src/img/icons/twitterHover.svg') 
+            url('../../src/img/icons/callHover.svg');
+ } 
+
 .footer {
   border-style: solid;
   border-width: 1px 0px 0px 0px;
@@ -26,44 +34,56 @@
 
 .instagramIcon {
   height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/instagram.svg');
+  width: 30px;
+  background: url('../../src/img/icons/instagram.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
+
 .instagramIcon:hover {
-  height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/instagramHover.svg');
-}
-
-.callIcon {
-  height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/call.svg');
-}
-.callIcon:hover {
-  height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/callHover.svg');
-}
-
-.twitterIcon {
-  height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/twitter.svg');
-}
-.twitterIcon:hover {
-  height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/twitterHover.svg');
+  background: url('../../src/img/icons/instagramHover.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
 
 .facebookIcon {
   height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/facebook.svg');
+  width: 30px;
+  background: url('../../src/img/icons/facebook.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
+
 .facebookIcon:hover {
+  background: url('../../src/img/icons/facebookHover.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.twitterIcon {
   height: 30px;
-  width: auto;
-  content: url('../../src/img/SocialIcons/facebookHover.svg');
+  width: 30px;
+  background: url('../../src/img/icons/twitter.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.twitterIcon:hover {
+  background: url('../../src/img/icons/twitterHover.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.callIcon {
+  height: 30px;
+  width: 30px;
+  background: url('../../src/img/icons/call.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.callIcon:hover {
+  background: url('../../src/img/icons/callHover.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
 }

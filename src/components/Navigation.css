@@ -1,3 +1,9 @@
+body:after{
+  display:none;
+  content:  url('../../src/img/icons/instagramHover.svg') 
+            url('../../src/img/icons/callHover.svg');
+ } 
+
 p {
   margin: 0;
   padding: 0;
@@ -36,14 +42,19 @@ p {
   margin: 30px;
 }
 
-.callIcon:hover {
-  content: url('../../src/img/icons/Call_Hover.png');
-}
-
-.instaIcon:hover {
-  content: url('../../src/img/icons/Insta_Hover.png');
-}
-
 .navButton:hover {
   background-color: lightgray;
 }
+
+.instagramIcon:hover {
+  background: url('../../src/img/icons/instagramHover.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.callIcon:hover {
+  background: url('../../src/img/icons/callHover.svg');
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+ 

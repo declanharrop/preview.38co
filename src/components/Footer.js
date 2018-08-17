@@ -66,9 +66,9 @@ const Footer = () => {
       <div className='ph3 pv3'>
         <div className='inline-flex ph3'>
           <div className='instagramIcon mh3'></div>
-          <div className='callIcon mh3'></div>
           <div className='twitterIcon mh3'></div>
           <div className='facebookIcon mh3'></div>
+          <div className='callIcon mh3'></div>
         </div>
       </div>
         
@@ -81,4 +81,4 @@ const Footer = () => {
 	);
 };
 
-export default Footer;
+export default Footer; 

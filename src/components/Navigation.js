@@ -64,7 +64,7 @@ class Navigation extends React.Component {
         <List className={classes.list}>
 
           <div className='pv3 w-100'>
-            <img className='centered' style={{height: '100px'}} src={require('../img/TECLogo.png')} alt='38co Logo' />
+            <img className='centered' style={{height: '80px'}} src={require('../img/TECLogo.png')} alt='38co Logo' />
           </div>
           <NavLink to='/'>
             <div className='navButton br2 mh2 mv1 pl2 pv1 pt2'>
@@ -180,16 +180,17 @@ class Navigation extends React.Component {
             </div>
           </NavLink>
 
-          <div className='socialMedia'>
-            <Divider className={classes.dividerShrink} />
-            <div className='socialMediaIcon'>
+          <Divider className={classes.dividerShrink} />
+
+          <div className='mv4 tc'>
+            <div className='mh3 dib'>
               <a href='tel:+447446976265'>
-                <img className='fl pl4 callIcon' style={{height: '30px'}} src={require('../img/icons/Call.png')} alt='38co Logo'/>
+                <img src={require('../img/icons/call.svg')} className='callIcon' alt='Call us'/>
               </a>
             </div>
-            <div className='socialMediaIcon'>
+            <div className='mh3 dib'>
               <a href='https://www.instagram.com/38co.io/' target='_blank' rel="noreferrer noopener">
-                <img className='fr pr4 instagramIcon' style={{height: '30px'}} src={require('../img/SocialIcons/instagram.svg')} alt='Instagram'/>
+                <img src={require('../img/icons/instagram.svg')} className='instagramIcon' alt='Instagram'/>
               </a>
             </div>
           </div>

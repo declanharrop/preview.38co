@@ -6,7 +6,7 @@ const BlogCard = (props) => (
   <div>
     <article className="shadow-1 br2 mb4">
       <div className="db pv4 ph3 ph0-l no-underline black">
-        <div className="flex flex-column flex-row-ns">
+        <div className="flex flex-column flex-row-ns ph3">
           <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
             <img src={props.icon} className="db" alt={props.imageAlt} />
           </div>

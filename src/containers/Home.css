@@ -1,3 +1,10 @@
+body:after{
+  display:none;
+  content:  url('../img/ClientIcons/aathHover.svg')
+            url('../img/ClientIcons/lnbHover.svg') 
+            url('../img/ClientIcons/thiHover.svg');
+ }
+
 .button {
   width: 166px;
   background-color: white;
@@ -14,14 +21,44 @@
   font-size: 0.90rem;
 }
 
+.thi {
+  height: 200px;
+  width: 200px;
+  background: url('../img/ClientIcons/thi.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
 .thi:hover {
-  content: url('../../src/img/ClientIcons/thiHover.png');
+  background: url('../img/ClientIcons/thiHover.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.lnb {
+  height: 200px;
+  width: 200px;
+  background: url('../img/ClientIcons/lnb.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
 }
 
 .lnb:hover {
-  content: url('../../src/img/ClientIcons/lnbHover.png');
+  background: url('../img/ClientIcons/lnbHover.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.aath {
+  height: 200px;
+  width: 200px;
+  background: url('../img/ClientIcons/aath.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
 }
 
 .aath:hover {
-  content: url('../../src/img/ClientIcons/aathHover.png');
+  background: url('../img/ClientIcons/aathHover.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
 }

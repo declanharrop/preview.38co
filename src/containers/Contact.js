@@ -1,15 +1,24 @@
 import React from 'react';
-import Form from '../components/Form';
 
 const Contact = () => {
   return (
     <div id='T'>
-      <div className='center' style= {{height: '80px'}}></div>
-      
-      <Form className=''/>
-      <h1>Contact</h1>
-      
-      <p>Content...</p>
+      <header className="vh-50 dt w-100 pb4">
+        <div 
+          style={{
+            background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
+            backgroundSize: 'cover'
+          }} 
+          className="dtc v-mid cover ph3 ph4-m ph5-l"
+        >
+          <h1 className="f2 fw8 f-subheadline-l greyFont">Get in touch</h1>
+          <h2 className="f5 fw5">We cant wait to hear about your amazing ideas!</h2>
+        </div>
+      </header>
+
+      <div className='mw8 pa3 center'>
+        
+      </div>
     </div>
   );
 };

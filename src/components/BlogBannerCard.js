@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+import Markdown from 'markdown-to-jsx';
 
 const BlogBannerCard = (props) => (
 
@@ -7,6 +8,11 @@ const BlogBannerCard = (props) => (
     {console.log(props.title)}
     <div className='bg-white br2 shadow-1 pt1 pb2 mv2'>
       <h3 className='fw5 f4 pa0'>{props.title}</h3>
+      <div className='mb3'>
+        <Markdown options={{ forceBlock: true }}>
+          {props.leading}
+        </Markdown>
+      </div>
       <NavLink className="mv2" 
         to={{
           pathname: `/Blog${props.path}`,
