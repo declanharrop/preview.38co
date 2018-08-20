@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BlogCard from '../components/BlogCard';
 import * as contentful from 'contentful';
+import { Helmet } from 'react-helmet';
 
 export default class Blog extends Component {
 
@@ -31,6 +32,10 @@ export default class Blog extends Component {
 
     return (
       <div id='T'>
+        <Helmet>
+          <title>Blog</title>
+          <meta name='description' content='Blog'/>        
+        </Helmet>
          <header className="vh-50 dt w-100 pb5">
           <div 
             style={{

@@ -1,6 +1,7 @@
 import React, { Component }from 'react';
 import { NavLink} from 'react-router-dom';
 import BlogBanner from '../components/BlogBanner';
+import { Helmet } from 'react-helmet';
 
 import './Home.css'
 
@@ -13,6 +14,10 @@ export default class Home extends Component {
   render() {
     return (
       <div id='T'>
+        <Helmet>
+          <title>38co</title>
+          <meta name='description' content='ThirtyEightCo home page'/>        
+        </Helmet>
         <div className='header'>
           <div className="vh-100 dt w-100" style={{
             background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
