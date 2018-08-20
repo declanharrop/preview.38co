@@ -77,7 +77,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <h4 className='dtc v-mid menuItem pl2'>Home</h4>
+                      <h4 className='dtc v-mid menuItem pl2 fw4'>Home</h4>
                     </div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <h4 className='dtc v-mid ph2 menuItem'>Services</h4>
+                      <h4 className='dtc v-mid ph2 menuItem fw4'>Services</h4>
                     </div>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <h4 className='dtc v-mid ph2 menuItem'>Our Work</h4>
+                      <h4 className='dtc v-mid ph2 menuItem fw4'>Our Work</h4>
                     </div>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <h4 className='dtc v-mid ph2 menuItem'>About</h4>
+                      <h4 className='dtc v-mid ph2 menuItem fw4'>About</h4>
                     </div>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <h4 className='dtc v-mid ph2 menuItem'>Blog</h4>
+                      <h4 className='dtc v-mid ph2 menuItem fw4'>Blog</h4>
                     </div>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <h4 className='dtc v-mid ph2 menuItem'>Contact</h4>
+                      <h4 className='dtc v-mid ph2 menuItem fw4'>Contact</h4>
                     </div>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ class Navigation extends React.Component {
           <Divider className={classes.dividerShrink} />
 
           <div className='mv4 tc'>
-            <div className='mh3 dib'>
+            <div className='mh3 mb4 dib'>
               <a href='tel:+447446976265'>
                 <img src={require('../img/icons/call.svg')} className='callIcon' alt='Call us'/>
               </a>

@@ -6,9 +6,9 @@ body:after{
  }
 
 .button {
-  width: 166px;
+  width: 160px;
   background-color: white;
-  height: 44px;
+  height: 40px;
   color: #3F424C;
   font-size: 0.90rem;
 }

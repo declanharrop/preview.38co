@@ -34,7 +34,7 @@ export default class FormSection extends Component {
 
   render() {
     return(
-      <form name='Contact' method='POST' netlify>
+      <form name='Contact'>
         <div>
           <input
             className='w-100 tc h2 pv2 mv2' 

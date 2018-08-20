@@ -7,6 +7,7 @@ import './Home.css'
 import WebDevIcon from '@material-ui/icons/Code';
 import BrandingIcon from '@material-ui/icons/Business';
 
+
 export default class Home extends Component {
 
   render() {
@@ -18,8 +19,14 @@ export default class Home extends Component {
             backgroundSize: 'cover'
           }}>
             <div className="dtc v-mid tc white ph3 ph4-l">
-              <h1 className="f2 f2-m f1-l fw6 tc pb3">Welcome to ThirtyEight Co</h1>
-              <div className='ph3'>
+              <img 
+                src={require('../img/tecBlockLogoWhite.svg')}
+                style={{
+                  height: '140px'
+                }}
+              />
+              <h1 className="f3 f2-m f1-l fw6 tc">Welcome to ThirtyEight Co</h1>
+              <div className='ph1'>
                 <NavLink to='/OurWork' className='no-underline'>
                   <div className='button br2 mh4 mv2 inline-flex items-center shadow-3 grow'>
                     <p className='tc fw3 center'>Our Work</p>

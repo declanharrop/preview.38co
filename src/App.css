@@ -24,7 +24,6 @@ h1 {
   color: white;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
-  line-height: 1.8rem;
 }
 
 p {
@@ -60,7 +59,7 @@ h4 {
 }
 
 .WebDevBG {
-  background: -webkit-linear-gradient(-15deg, #1ccad8 0%,#2f97c1 100%);
+  background: -webkit-linear-gradient(-35deg, #1ccad8 0%,#2f97c1 100%);
 }
 
 .sectionH1 {
