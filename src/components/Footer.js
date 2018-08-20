@@ -7,11 +7,11 @@ import './Footer.css'
 const Footer = () => {
 
 	return (
-    <div className=''>
-      <div className='pv4 ph3 footerBlock cf center footer'>
+    <div className='lightGreyBG pb3 pt5'>
+      <div className='pv4 ph3 footerBlock cf center'>
 
         <div className='fl mh4 footerBlock'>
-          <h2 className='fw5 blueFont'>Navigation</h2>
+          <h3>Navigation</h3>
           <div className='mv2'>
             <NavLink to='/' className='no-underline'><p className='footerLink fw4 f5'>Home</p></NavLink>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         <div className='fl mh4 footerBlock'>
-          <h2 className='fw5 blueFont'>Location</h2>
+          <h3>Location</h3>
           <div className='mv2'>
             <p className='footerNonLink fw4 f5'>Derby</p>
           </div>
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className='fl mh4 footerBlock'>
-          <h2 className='fw5 blueFont'>Contact</h2>
+          <h3>Contact</h3>
           <div className='mv2'>
             <p className='footerLink fw4 f5'>info@38co.io</p>
           </div>
@@ -63,12 +63,20 @@ const Footer = () => {
 
       </div>
 
-      <div className='ph3 pv3'>
+      <div className='ph3 pv4'>
         <div className='inline-flex ph3'>
-          <div className='instagramIcon mh3'></div>
-          <div className='twitterIcon mh3'></div>
-          <div className='facebookIcon mh3'></div>
-          <div className='callIcon mh3'></div>
+          <a href="https://www.instagram.com/38co.io" target='_blank' rel='noopener noreferrer'>
+            <div className='instagramIcon mh3'></div>
+          </a>
+          <a href="https://twitter.com/ThirtyEightCo" target='_blank' rel='noopener noreferrer'>
+            <div className='twitterIcon mh3'></div>
+          </a>
+          <a href="https://www.facebook.com/thirtyeightco" target='_blank' rel='noopener noreferrer'>
+            <div className='facebookIcon mh3'></div>
+          </a>
+          <a href='tel:+447446976265'>
+            <div className='callIcon mh3'></div>
+          </a>
         </div>
       </div>
         

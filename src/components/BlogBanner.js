@@ -38,10 +38,15 @@ export default class BlogBanner extends Component {
   render() {
     return (
       <div className=''>
-        <div className='mw8 pv4 ph2 cf center'>
-          { this.state.slicedPosts.map(({fields}, i) =>
-            <BlogBannerCard key={i} {...fields} />
-          )}
+        <div className='mw8 mv5 pb3 ph2 cf center'>
+          <div>
+            <h2 className='fw6 tc ma5'>What we're talking about</h2>
+          </div>
+          <div>
+            { this.state.slicedPosts.map(({fields}, i) =>
+              <BlogBannerCard key={i} {...fields} />
+            )}
+          </div>
       </div>
     </div>
     )

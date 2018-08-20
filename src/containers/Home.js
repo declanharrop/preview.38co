@@ -18,16 +18,16 @@ export default class Home extends Component {
             backgroundSize: 'cover'
           }}>
             <div className="dtc v-mid tc white ph3 ph4-l">
-              <h1 className="f2 f2-m f1-l fw6 tc">Welcome to ThirtyEight Co</h1>
+              <h1 className="f2 f2-m f1-l fw6 tc pb3">Welcome to ThirtyEight Co</h1>
               <div className='ph3'>
                 <NavLink to='/OurWork' className='no-underline'>
                   <div className='button br2 mh4 mv2 inline-flex items-center shadow-3 grow'>
-                    <h3 className='tc fw3 center'>Our Work</h3>
+                    <p className='tc fw3 center'>Our Work</p>
                   </div>
                 </NavLink>
                 <NavLink to='/Services' className='no-underline'>
                   <div className='button br2 mh4 mv2 inline-flex items-center shadow-3 grow'>
-                    <h3 className='tc fw3 center'>Services</h3>
+                    <p className='tc fw3 center'>Services</p>
                   </div>
                 </NavLink>
               </div>
@@ -63,7 +63,7 @@ export default class Home extends Component {
                     color: 'white',
                   }}/>
                 </div>  
-                <h3 className='f3 fw6 white'>Web Development</h3>
+                <h3 className='f3 fw6 white pv2'>Web Development</h3>
                 <p className='white'>
                 At ThirtyEight Co we specialise in websites for businesses. We are based in Derby. We believe in giving our 
                 clients clear and honest advice on what is best for their business. We offer a range of options when it comes 
@@ -72,7 +72,7 @@ export default class Home extends Component {
                 <div className='mt4'>
                   <NavLink to='/Services' className='no-underline'>
                     <div className='dt center buttonAlt br2 shadow-4 grow'>
-                      <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                      <p className='dtc v-mid fw3 wtTxt'>Show me more!</p>
                     </div>
                   </NavLink>
                 </div>
@@ -85,7 +85,7 @@ export default class Home extends Component {
                     color: 'white',
                   }}/>
                 </div>  
-                <h3 className='f3 fw6 white'>Business Branding</h3>
+                <h3 className='f3 fw6 white pv2'>Business Branding</h3>
                 <p className='white'>
                 Branding is the marketing practice of creating a name, symbol or design that identifies and differentiates one 
                 product from another. Branding is a key element in putting across the benefits of your product or service to the 
@@ -94,7 +94,7 @@ export default class Home extends Component {
                 <div className='mt4'>
                   <NavLink to='/Services' className='no-underline'>
                     <div className='dt center buttonAlt br2 shadow-4 grow'>
-                      <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                      <p className='dtc v-mid fw3 wtTxt'>Show me more!</p>
                     </div>
                   </NavLink>
                 </div>
@@ -104,7 +104,10 @@ export default class Home extends Component {
           </div>
         </div>
         
-        <div className='w-100 lightGreyBG pv4'>
+        <div className='w-100 lightGreyBG pv5'>
+          <div className=''>
+            <h2 className='fw6 tc'>Our Partners</h2>
+          </div>
           <div className='mw8 center tc'>
             <div className='dib mh4'>
               <div className='thi' title='Total Home Improvements Logo'>

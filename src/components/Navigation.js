@@ -19,7 +19,7 @@ import './Navigation.css'
 
 const styles = {
   list: {
-    width: '220px',
+    width: '250px',
   },
 
   drawer: {
@@ -77,7 +77,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>Home</p>
+                      <h4 className='dtc v-mid menuItem pl2'>Home</h4>
                     </div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>Services</p>
+                      <h4 className='dtc v-mid ph2 menuItem'>Services</h4>
                     </div>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>Our Work</p>
+                      <h4 className='dtc v-mid ph2 menuItem'>Our Work</h4>
                     </div>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>About</p>
+                      <h4 className='dtc v-mid ph2 menuItem'>About</h4>
                     </div>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>Blog</p>
+                      <h4 className='dtc v-mid ph2 menuItem'>Blog</h4>
                     </div>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ class Navigation extends React.Component {
                   </div>
                   <div className="fl w-70 pa2">
                     <div className="pv1 h2 dt">
-                      <p className='dtc v-mid ph2 menuItem'>Contact</p>
+                      <h4 className='dtc v-mid ph2 menuItem'>Contact</h4>
                     </div>
                   </div>
                 </div>

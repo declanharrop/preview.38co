@@ -1,4 +1,5 @@
 import React from 'react';
+import FormSection from '../components/FormSection';
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
       </header>
 
       <div className='mw8 pa3 center'>
-        
+        <FormSection />
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ const Services = () => {
       <div>
         <div className='mw9 center pv6'>
           <div className='tc pb4'>
-            <h1>Some of our stuff</h1>
+            <h2 className='fw5 f2' >Our big services</h2>
           </div>
           
           <div className="dt-l dt--fixed-l">
@@ -43,9 +43,9 @@ const Services = () => {
                   }}/>
                 </div>
                 <div>
-                  <h2>
+                  <h3>
                     Web Development
-                  </h2>
+                  </h3>
                 </div>
                 <div>
                   <p>
@@ -57,7 +57,7 @@ const Services = () => {
                 </div>
                 <NavLink to='/Services#WebDev' className='no-underline'>
                   <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
-                    <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                    <p className='dtc v-mid fw3 wtTxt'>Show me more!</p>
                   </div>
                 </NavLink>
               </div>
@@ -72,9 +72,9 @@ const Services = () => {
                   }}/>
                 </div>
                 <div>
-                  <h2>
+                  <h3>
                     Branding
-                  </h2>
+                  </h3>
                 </div>
                 <div>
                   <p>
@@ -86,7 +86,7 @@ const Services = () => {
                 </div>
                 <NavLink to='/Services#Branding' className='no-underline'>
                   <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
-                    <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                    <p className='dtc v-mid fw3 wtTxt'>Show me more!</p>
                   </div>
                 </NavLink>
               </div>
@@ -102,9 +102,9 @@ const Services = () => {
                   }}/>
                 </div>
                 <div>
-                  <h2>
+                  <h3>
                     UX/UI Design
-                  </h2>
+                  </h3>
                 </div>
                 <div>
                   <p>
@@ -116,7 +116,7 @@ const Services = () => {
                 </div>
                 <NavLink to='/Services#UXUI' className='no-underline'>
                   <div className='dt center buttonAlt mt4 br2 shadow-4 grow'>
-                    <h3 className='dtc v-mid fw3 wtTxt'>Show me more!</h3>
+                    <p className='dtc v-mid fw3 wtTxt'>Show me more!</p>
                   </div>
                 </NavLink>
               </div>
@@ -208,7 +208,7 @@ const Services = () => {
 
             <NavLink to='/Contact#T' className='no-underline'>
               <div className='dt center buttonAlt mt3 mb5 br2 shadow-4 grow'>
-                <h3 className='dtc v-mid fw3'>Get in touch!</h3>
+                <p className='dtc v-mid fw3'>Get in touch!</p>
               </div>
             </NavLink>            
           
@@ -300,7 +300,7 @@ const Services = () => {
 
             <NavLink to='/Contact#T' className='no-underline'>
               <div className='dt center buttonAlt mt3 mb5 br2 shadow-4 grow'>
-                <h3 className='dtc v-mid fw3'>Get in touch!</h3>
+                <p className='dtc v-mid fw3'>Get in touch!</p>
               </div>
             </NavLink>            
           
@@ -392,7 +392,7 @@ const Services = () => {
 
             <NavLink to='/Contact#T' className='no-underline'>
               <div className='dt center buttonAlt mt3 mb5 br2 shadow-4 grow'>
-                <h3 className='dtc v-mid fw3'>Get in touch!</h3>
+                <p className='dtc v-mid fw3'>Get in touch!</p>
               </div>
             </NavLink>            
           
