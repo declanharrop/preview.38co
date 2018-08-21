@@ -16,7 +16,7 @@ export default class Blog extends Component {
 
   componentDidMount() {
     this.fetchPosts()
-    .then(this.setPosts);
+    .then(this.setPosts)
   }
 
   fetchPosts = () => this.client.getEntries()
@@ -34,18 +34,14 @@ export default class Blog extends Component {
       <div id='T'>
         <Helmet>
           <title>Blog</title>
-          <meta name='description' content='Blog'/>        
+          <meta name='description' content='Blog'/>
         </Helmet>
-         <header className="vh-50 dt w-100 pb5">
+        <header className="vh-50 dt w-100 pb4">
           <div 
-            style={{
-              background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
-              backgroundSize: 'cover'
-            }} 
-            className="dtc v-mid cover ph3 ph4-m ph5-l"
+            className="dtc v-mid cover ph3 ph4-m ph5-l largeImg1"
           >
-            <h1 className="f2 fw8 f-subheadline-l greyFont">The Blog</h1>
-            <h2 className="f5 fw5">Read our latest stories</h2>
+            <h1 className="f2 fw8 f-subheadline-l greyFont">Blog</h1>
+            <h2 className="f5 fw5">What we are talking about</h2>
           </div>
         </header>
         <div className='mw8 pa3 center'>

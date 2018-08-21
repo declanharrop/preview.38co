@@ -11,11 +11,7 @@ export default class About extends Component {
         </Helmet>
         <header className="vh-50 dt w-100 pb4">
           <div 
-            style={{
-              background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
-              backgroundSize: 'cover'
-            }} 
-            className="dtc v-mid cover ph3 ph4-m ph5-l"
+            className="dtc v-mid cover ph3 ph4-m ph5-l largeImg1"
           >
             <h1 className="f2 fw8 f-subheadline-l greyFont">About</h1>
             <h2 className="f5 fw5">Find out more about us</h2>

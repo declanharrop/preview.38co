@@ -19,16 +19,14 @@ export default class Home extends Component {
           <meta name='description' content='ThirtyEightCo home page'/>        
         </Helmet>
         <div className='header'>
-          <div className="vh-100 dt w-100" style={{
-            background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
-            backgroundSize: 'cover'
-          }}>
+          <div className="vh-100 dt w-100 largeImg1">
             <div className="dtc v-mid tc white ph3 ph4-l">
-              <img 
+              <img
                 src={require('../img/tecBlockLogoWhite.svg')}
                 style={{
                   height: '140px'
                 }}
+                alt='38co Logo'
               />
               <h1 className="f3 f2-m f1-l fw6 tc">Welcome to ThirtyEight Co</h1>
               <div className='ph1'>

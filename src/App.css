@@ -83,3 +83,8 @@ h4 {
 .blogText {
   line-height: 1.9rem;
 }
+
+.largeImg1 {
+  background: url('./img/Services/ph.jpg') no-repeat center right;
+  background-size: cover;
+}

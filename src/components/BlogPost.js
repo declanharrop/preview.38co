@@ -11,11 +11,13 @@ const BlogPost = ({ location: { state: { props } }}) => {
       </Helmet>
       <article className="pb5 mt4 mb3 mh3">
         <header className="tc ph3 ph4-ns pt5">
-          <h1 className="f3 f2-m f1-l fw3 mt0">{props.title}</h1>
+          <h1 className="f3 f2-m f1-l fw3 mt0 black">{props.title}</h1>
         </header>
         <div className="ph2">
           <div className="measure db center f5 f4-ns lh-copy">
-            <img className="w-100 mb4" src={props.icon} alt={props.imageAlt}/>
+            <Markdown className='pt2 pb4'>
+              {props.image}
+            </Markdown>
             <Markdown>
               {props.content}
             </Markdown>

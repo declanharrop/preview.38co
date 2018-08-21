@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+import Helmet from 'react-helmet';
 
 import './Services.css'
 
@@ -14,13 +15,13 @@ const Services = () => {
 
   return (
     <div id='T'>
+      <Helmet>
+        <title>Services</title>
+        <meta name='description' content='Services'/>
+      </Helmet>
       <header className="vh-100 bg-light-pink dt w-100">
-        <div 
-          style={{
-            background: 'url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right', 
-            backgroundSize: 'cover'
-          }} 
-          className="dtc v-mid cover ph3 ph4-m ph5-l"
+        <div
+          className="dtc v-mid cover ph3 ph4-m ph5-l largeImg1"
         >
           <h1 className="f2 fw8 f-subheadline-l greyFont">Our Services</h1>
           <h2 className="f5 fw5">Take a look at everything we offer</h2>
